@@ -1,3 +1,5 @@
+// <Child> with 1 attribute: myClickHandler
+// <Child myClickHandler=.. />
 class Child extends React.Component{
     render(){
         return(
