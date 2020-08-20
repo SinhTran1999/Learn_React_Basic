@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <title>ReactJS UNSAFE_componentWillMount() Method</title>
+    <style>
+        .person{
+            border: 1px solid #cbbfab;
+            width: 250px;
+            height: 50px;
+            padding: 5px;
+            margin: 5px;
+        }
+        .person-old{
+            background-color: Gray;
+        }
+        .person-middle{
+            background-color: lightgray;
+        }
+        .person-young{
+            background-color:white;
+        }
+    </style>
+</head>
+<body>
+    <h1>UNSAFE_componentWillMount():</h1>
+    <div id="person1"></div>
+    <div id="person2"></div>
+    <script type="text/babel" src="person.jsx"></script>
+</body>
+</html>
