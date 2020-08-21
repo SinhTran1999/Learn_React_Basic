@@ -1,0 +1,20 @@
+.product{
+    padding:5px;
+    margin-bottom: 15px;
+    background-color: #ddd;
+}
+.product-nav a{
+    background-color:#ddd;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+.selected{
+    color:red;
+}
+.route-place{
+    margin-top: 10px;
+    padding: 30px;
+    height: 100%;
+    border: 1px solid #ddd;
+}
