@@ -1,0 +1,24 @@
+.my-msg {
+  color: blue;
+}
+
+.my-msg-entering {
+   color: blue;
+   font-size: 150%;
+   transition-duration: 1s;
+}
+
+.my-msg-entered {
+   font-size: 150%;
+   color: red;
+}
+
+.my-msg-exiting {
+   font-size: 100%;
+   color: black;
+   transition-duration: 1s;
+}
+
+.my-highlight  {
+ color: red;
+}
