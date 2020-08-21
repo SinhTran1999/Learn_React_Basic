@@ -1,0 +1,48 @@
+.example-enter {
+  opacity: 0.2;
+  transition: opacity 300ms ease-in;
+  background:  #f9e79f;
+}
+ 
+.example-enter .example-enter-active {
+  opacity: 1;
+  background:  #eafaf1 ;
+}
+ 
+.example-enter-done {
+  opacity: 1;
+  background:  #eafaf1 ;
+}
+ 
+.example-exit {
+  opacity: 1;
+  transition: opacity 900ms ease-in;
+  background:  #fdebd0 ;
+}
+ 
+.example-exit .example-exit-active {
+  opacity: 0.5;
+  background:  white ;
+}
+ 
+.example-exit-done {
+  opacity: 1;
+  background:  white;
+}
+ 
+ 
+.my-div {
+  border: 1px solid blue;
+  width: 350px;
+  height: 150px;
+  padding: 5px;
+}
+ 
+.my-message {
+   font-style: italic;
+   color: blue;
+}
+ 
+.my-highlight  {
+  color: red;
+}
